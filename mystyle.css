@@ -1,0 +1,40 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0;
+    background-color: lightblue;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: lightblue;
+}
+main{
+    margin-top: 250px;
+}
+
+.image-link {
+    display: inline-block;
+    position: relative;
+}
+.text-overlay {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(196, 85, 85);
+    padding: 10px;
+}
+
+.text-link {
+    display: inline-block;
+    position: relative;
+    color: rgb(35, 35, 114);
+}
